@@ -1,0 +1,337 @@
+@media (max-width: 1200px){
+  .install__items{
+    display: none;
+  }
+  .install__text{
+    margin-bottom: 111px;
+  }
+  .benefits__item{
+    padding-bottom: 70px;
+  }
+  .benefits__item-title{
+    font-size: 35px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 1160px){
+  .we-work__main-title{
+    margin-bottom: 70px;
+  }
+  .we-work__items{
+    flex-direction: column;
+    align-items: center;
+  }
+  .we-work__first-item::after,
+  .we-work__third-item::after,
+  .we-work__second-item::after{
+    transform: rotate(90deg);
+  }
+  .we-work__first-item::after{
+    top: 118%;
+  }
+  .we-work__third-item::after{
+    bottom: -8%;
+    left: -40%;
+  }
+  .we-work__second-item::after{
+    top: -12%;
+    left: 25%;
+  }
+  .we-work__second-item{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1100px){
+  .questions__img{
+    display: none;
+  }
+  .repair{
+    margin-bottom: 80px;
+  }
+  .questions__inner{
+    padding: 30px 15px;
+  }
+  .benefits__item{
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .benefits__item-title{
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 879px){
+  .upgrade__items{
+    justify-content: center;
+  }
+  .upgrade__item{
+    margin-bottom: 24px;
+  }
+  .upgrade__item{
+    margin-left: 24px;
+  }
+  .benefits__items{
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits__item-left{
+    margin: 0 0 30px 0;
+  }
+}
+
+@media (max-width: 856px) {
+  .shelby__items{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shelby__item{
+    margin: 0 auto;
+  }
+  .repair__title{
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 800px){
+  .header__btn-mob{
+    display: block;
+  }
+  .main-btn__desk{
+    display: none;
+  }
+  .main-btn__mob{
+    font-size: 18px;
+  }
+  .menu__btn{
+    display: flex;
+  }
+  .menu__list{
+    position: fixed;
+    top: 0;
+    left: -80%;
+    width: 50%;
+    height: 100%;
+    background: rgb(20,71,70);
+    background: linear-gradient(315deg, rgba(20,71,70,1) 0%, rgba(3,77,15,1) 0%, rgba(40,160,164,1) 100%, rgba(69,255,0,1) 100%);
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  .menu__list.menu__list-active{
+    left: 0%;
+  }
+  .menu__item + .menu__item {
+    margin-left: 0;
+    padding-top: 42px;
+  }
+  .menu__link{
+    font-size: 24px;
+  }
+  .services__items{
+    flex-wrap: wrap;
+  }
+  .services__item{
+    width: 100%;
+    margin-right: 0;
+  }
+  .services__item + .services__item{
+    margin-top: 30px;
+  }
+  .shelby__title{
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .shelby__subtitle{
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .repair__top,
+  .repair__bottom{
+    padding: 50px 15px 77px 15px;
+  }
+  .repair__top-title{
+    text-align: center;
+    margin-bottom: 33px;
+  }
+  .repair__top-text{
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .custom-title{
+    margin: 0 auto;
+    margin-bottom: 53px;
+  }
+  .repair__bottom-text{
+    margin: 0 auto;
+  }
+  .install__title{
+    margin-bottom: 40px;
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .install__text{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .install-invest{
+    margin-bottom: 100px;
+  }
+  .we-work__main-title{
+    margin-bottom: 20px;
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .install{
+    margin-bottom: 120px;
+  }
+  .benefits{
+    margin-bottom: 120px;
+  }
+  .footer__title{
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 656px){
+  .main-screen__title{
+    font-size: 50px;
+    line-height: 95%;
+  }
+  .main-screen__content{
+    font-size: 20px;
+  }
+  .main-screen-text{
+    font-size: 16px;
+  }
+  .main-screen__btn{
+    font-size: 22px;
+    max-width: 310px;
+    min-height: 55px;
+  }
+  .shelby__title{
+    font-size: 46px;
+    line-height: 64px;
+  }
+  .shelby__subtitle {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .upgrade{
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 476px){
+  .main-screen__title {
+    font-size: 40px;
+  }
+  .main-screen__content {
+    font-size: 17px;
+  }
+  .main-screen-text {
+    font-size: 14px;
+  }
+  .main-screen__btn {
+    font-size: 18px;
+    max-width: 250px;
+    min-height: 45px;
+  }
+  .menu__list{
+    width: 77%;
+  }
+  .services{
+    padding: 50px 0 80px;
+  }
+  .shelby{
+    margin-bottom: 100px;
+  }
+  .shelby__title{
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 20px;
+  }
+  .shelby__item{
+    padding: 30px 20px 30px 50px;
+  }
+  .shelby__item-title{
+    font-size: 20px;
+  }
+  .shelby__item-text{
+    font-size: 14px;
+  }
+  .upgrade__item{
+    margin-left: 0;
+  }
+  .upgrade__title{
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 50px;
+  }
+  .questions__subtitle{
+    font-size: 20px;
+  }
+  .questions__title{
+    font-size: 26px;
+  }
+  .install__title {
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .questions{
+    margin-bottom: 70px;
+  }
+  .install-invest__title{
+    margin-bottom: 30px;
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .we-work__main-title{
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .benefits__item{
+    padding-bottom: 15px;
+    min-height: 250px;
+    padding: 20px 40px 20px 40px;
+  }
+  .benefits__item-title{
+    font-size: 22px;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+  .benefits__item-text{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .benefits__title{
+    font-size: 37px;
+    line-height: 46px;
+  }
+  .benefits__subtitle,
+  .benefits__text{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer{
+    margin-bottom: 50px;
+  }
+  .footer__title{
+    font-size: 37px;
+    line-height: 54px;
+    margin-bottom: 30px;
+  }
+  .footer__text-top{
+    margin-bottom: 28px;
+  }
+  .footer__text{
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
